@@ -3,7 +3,7 @@ title: "몽골여행"
 description: "몽골의료진과 한국의료진의 만남"
 category: medical
 tags: [몽골, 의료, 관광]
-image: /assets/img/2026-08/momngolia.jpg
+image: /assets/img/몽골 한국 의료진 사진.jpg
 image_caption: "몽골의 초원. ⓒ MT News"
 lang: ko
 ---
