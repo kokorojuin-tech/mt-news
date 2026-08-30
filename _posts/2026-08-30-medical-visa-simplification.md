@@ -3,7 +3,7 @@ title: "메디컬비자 발급 절차 간소화, 9월부터 시행"
 description: "법무부가 외국인 환자 유치기관을 통한 메디컬비자(C-3-3, G-1-10) 발급 절차를 간소화한다고 밝혔다. 서류 심사 기간이 기존 대비 절반으로 줄어들 전망이다."
 category: policy
 tags: [메디컬비자, 유치기관, 법무부]
-image: /assets/img/2026-08/medical-visa-sample.jpg
+image: /assets/img/2026-08/mongol.jpg
 image_caption: "인천국제공항 입국장 모습. ⓒ MT News"
 lang: ko
 ---
