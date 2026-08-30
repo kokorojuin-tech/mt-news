@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{%- assign list = paginator.posts | default: site.posts -%}
+<div class="wrap narrow">
+  <div class="listwrap">
+    <div class="sec-head">
+      <h2>{% if paginator.page and paginator.page > 1 %}기사 목록 · {{ paginator.page }}페이지{% else %}최신 기사{% endif %}</h2>
+      <a href="{{ '/tags/' | relative_url }}">주제별로 보기 →</a>
+    </div>
+
+    {%- if list.size > 0 %}
+      {%- for post in list %}
+        {%- include post-row.html post=post %}
+      {%- endfor %}
+    {%- else %}
+      <p class="empty">첫 기사를 준비하고 있습니다.<br>곧 새로운 소식으로 찾아뵙겠습니다.</p>
+    {%- endif %}
+
+    {%- if paginator.total_pages > 1 %}
+    <nav class="pager">
+      {%- if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">← 이전</a>
+      {%- endif %}
+      <span class="pos">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+      {%- if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">다음 →</a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+  </div>
+</div>

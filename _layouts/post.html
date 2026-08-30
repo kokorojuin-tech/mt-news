@@ -1,0 +1,64 @@
+---
+layout: default
+---
+{%- assign c = site.cats | where: "slug", page.category | first -%}
+<div class="wrap">
+  <article class="post">
+    <div class="crumb">
+      <a href="{{ '/' | relative_url }}">홈</a> &nbsp;›&nbsp;
+      <b><a href="{{ '/category/' | append: page.category | append: '/' | relative_url }}">{{ c.name | default: "기사" }}</a></b>
+    </div>
+
+    <h1>{{ page.title }}</h1>
+    {%- if page.description %}
+    <p class="dek">{{ page.description }}</p>
+    {%- endif %}
+
+    <div class="post-meta">
+      <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang == "en" %} · <b class="langtag">EN</b>{% endif %}</span>
+      <span class="share">
+        <span onclick="navigator.clipboard.writeText(location.href)">링크복사</span>
+        <span onclick="window.print()">인쇄</span>
+      </span>
+    </div>
+
+    {%- if page.image %}
+    <figure>
+      <div class="thumb" style="background-image:url('{{ page.image | relative_url }}')"></div>
+      {%- if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{%- endif %}
+    </figure>
+    {%- endif %}
+
+    <div class="body">
+      {{ content }}
+    </div>
+
+    {%- if page.tags.size > 0 %}
+    <div class="post-tags">
+      <div class="tags">
+        {%- for t in page.tags %}<a href="{{ '/tags/#' | append: t | relative_url }}">#{{ t }}</a>{%- endfor %}
+      </div>
+    </div>
+    {%- endif %}
+
+    {%- assign related = site.categories[page.category] | where_exp: "p", "p.url != page.url" -%}
+    {%- if related.size > 0 %}
+    <div class="rel">
+      <h3>함께 읽으면 좋은 기사</h3>
+      {%- for p in related limit: 3 %}
+      {%- assign rc = site.cats | where: "slug", p.category | first %}
+      <a href="{{ p.url | relative_url }}">{{ p.title }}<span>{{ rc.name }} · {{ p.date | date: "%Y.%m.%d" }}</span></a>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    <div class="nextprev">
+      {%- if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}"><span>← 이전 글</span><b>{{ page.previous.title }}</b></a>
+      {%- else %}<span></span>{% endif %}
+      {%- if page.next %}
+      <a href="{{ page.next.url | relative_url }}"><span>다음 글 →</span><b>{{ page.next.title }}</b></a>
+      {%- endif %}
+    </div>
+  </article>
+</div>

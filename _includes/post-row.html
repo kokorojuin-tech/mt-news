@@ -1,0 +1,19 @@
+{%- assign p = include.post -%}
+{%- assign c = site.cats | where: "slug", p.category | first -%}
+<article class="row{% unless p.image %} no-img{% endunless %}">
+  <div>
+    <div class="meta">
+      <span class="cat">{{ c.name | default: p.category | default: "기사" }}</span>
+      <span class="dot">·</span>
+      <span>{{ p.date | date: "%Y.%m.%d" }}</span>
+      {%- if p.lang == "en" %}
+      <span class="dot">·</span><span class="langtag">EN</span>
+      {%- endif %}
+    </div>
+    <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p>{{ p.description | default: p.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+  </div>
+  {%- if p.image %}
+  <a class="thumb" href="{{ p.url | relative_url }}" style="background-image:url('{{ p.image | relative_url }}')"></a>
+  {%- endif %}
+</article>

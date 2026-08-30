@@ -1,0 +1,37 @@
+<div class="utility">
+  <div class="wrap">
+    <div>{{ site.time | date: "%Y년 %-m월 %-d일" }}</div>
+    <div class="links">
+      <a href="{{ '/about/' | relative_url }}">소개</a>
+      <a href="{{ '/about/#contact' | relative_url }}">기고·제보</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <span class="lang">
+        <a href="{{ '/' | relative_url }}" class="{% if page.lang != 'en' %}on{% endif %}">KO</a>
+        <a href="{{ '/en/' | relative_url }}" class="{% if page.lang == 'en' %}on{% endif %}">EN</a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <div class="masthead">
+      <a class="logo" href="{{ '/' | relative_url }}">
+        <span class="mark">MT<span>·</span>News</span>
+        <span class="tag">{{ site.tagline }}</span>
+      </a>
+      <a class="search" href="{{ '/tags/' | relative_url }}">🔍 &nbsp;주제별로 찾기</a>
+    </div>
+  </div>
+  <nav class="primary">
+    <div class="wrap">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}on{% endif %}">홈</a></li>
+        {%- for c in site.cats %}
+        <li><a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}"
+               class="{% if page.cat == c.slug or page.category == c.slug %}on{% endif %}">{{ c.name }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>

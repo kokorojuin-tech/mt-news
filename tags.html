@@ -1,0 +1,27 @@
+---
+layout: default
+title: 주제별로 보기
+permalink: /tags/
+---
+<div class="wrap narrow">
+  <div class="page-head">
+    <h1>주제별로 보기</h1>
+    <p>태그를 기준으로 지금까지의 기사를 모았습니다.</p>
+    <span class="count">태그 {{ site.tags.size }}개 · 기사 {{ site.posts.size }}건</span>
+  </div>
+
+  <div class="listwrap">
+    {%- if site.tags.size > 0 %}
+      {%- for t in site.tags %}
+      <section class="tagsec" id="{{ t[0] }}">
+        <h2>#{{ t[0] }}</h2>
+        {%- for p in t[1] %}
+        <a class="t" href="{{ p.url | relative_url }}">{{ p.title }}<em>{{ p.date | date: "%Y.%m.%d" }}</em></a>
+        {%- endfor %}
+      </section>
+      {%- endfor %}
+    {%- else %}
+      <p class="empty">아직 태그가 없습니다.</p>
+    {%- endif %}
+  </div>
+</div>

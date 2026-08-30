@@ -1,0 +1,69 @@
+# ══════════════════════════════════════════════════════════
+#  MT News — 사이트 기본 설정
+#  이 파일을 수정하면 사이트 전체에 반영됩니다.
+# ══════════════════════════════════════════════════════════
+
+title: MT News
+tagline: Medical Tourism & Healthcare Industry Report
+description: >-
+  의료관광과 외국인환자 유치산업, 그리고 관광·의료산업의 국제교류를 기록하는 전문 미디어.
+
+# ▼ 도메인을 연결한 뒤 이 주소를 실제 도메인으로 바꾸세요.
+#   (도메인 연결 전이라면 https://아이디.github.io 로 두면 됩니다)
+url: "https://mtnews.kr"
+baseurl: ""
+
+lang: ko
+author: 백승화
+email: contact@mtnews.kr
+
+# 뉴스레터 구독 폼 연결 주소 (Formspree / Buttondown / Mailchimp 등)
+# 아직 없으면 그대로 두세요. 버튼은 보이지만 전송은 되지 않습니다.
+subscribe_action: ""
+
+# ── 카테고리 ───────────────────────────────────────────────
+# slug 는 URL 에 쓰이는 영문 이름, name 은 화면에 보이는 이름입니다.
+# 글 작성 시 front matter 에 category: policy 처럼 slug 를 씁니다.
+# 카테고리를 추가하면 category/ 폴더에 같은 이름의 파일도 만들어야 합니다.
+cats:
+  - { slug: exchange,  name: "국제교류" }
+  - { slug: column,    name: "칼럼" }
+  - { slug: policy,    name: "정책·제도" }
+  - { slug: stats,     name: "유치실적·통계" }
+  - { slug: global,    name: "글로벌" }
+  - { slug: medical,   name: "의료산업" }
+  - { slug: tourism,   name: "관광산업" }
+  - { slug: interview, name: "인터뷰" }
+  - { slug: report,    name: "리포트" }
+
+# ── 푸터 링크 ─────────────────────────────────────────────
+footer_links:
+  - { name: "소개",      url: "/about/" }
+  - { name: "기고·제보",  url: "/about/#contact" }
+  - { name: "광고문의",   url: "/about/#contact" }
+  - { name: "RSS",       url: "/feed.xml" }
+
+# ── 빌드 설정 (건드리지 않아도 됩니다) ────────────────────────
+permalink: /news/:year/:month/:day/:title/
+paginate: 8
+paginate_path: "/page:num/"
+timezone: Asia/Seoul
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values:
+      layout: post
+      lang: ko
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor

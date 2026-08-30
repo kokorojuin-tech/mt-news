@@ -1,0 +1,30 @@
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="mark">MT<span>·</span>News</div>
+        <p>{{ site.description }}</p>
+      </div>
+      <div>
+        <h5>섹션</h5>
+        <ul>
+          {%- for c in site.cats limit: 5 %}
+          <li><a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <h5>MT News</h5>
+        <ul>
+          {%- for l in site.footer_links %}
+          <li><a href="{{ l.url | relative_url }}">{{ l.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</span>
+      <span>발행인 · 편집인 {{ site.author }} &nbsp;|&nbsp; {{ site.email }}</span>
+    </div>
+  </div>
+</footer>
