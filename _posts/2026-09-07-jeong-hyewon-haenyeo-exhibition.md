@@ -2,6 +2,7 @@
 title: "\"해녀는 사라지는 유물이 아니다\"… 정혜원 사진작가, 제주 해녀의 삶을 다시 카메라에 담다"
 description: "정혜원 작가 개인전 《해녀, 사라지지 않는 유물》이 10월 17일부터 11월 1일까지 제주 Gallery MOON101에서 열린다."
 category: interview
+author: "백승화 기자"
 tags: [제주해녀, 사진전, 정혜원, 문화유산]
 image: /assets/img/2026-09/jeong-hyewon-haenyeo.jpg
 image_caption: "정혜원 작가의 사진전 《해녀, 사라지지 않는 유물》 포스터."
