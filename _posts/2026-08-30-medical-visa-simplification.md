@@ -4,8 +4,6 @@ description: "법무부가 외국인 환자 유치기관을 통한 메디컬비�
 category: policy
 author: "백승화 기자"
 tags: [메디컬비자, 유치기관, 법무부]
-image: /assets/img/2026-08/mongol.jpg
-image_caption: "인천국제공항 입국장 모습. ⓒ MT News"
 lang: ko
 ---
 
