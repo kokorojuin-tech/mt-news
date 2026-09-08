@@ -1,5 +1,5 @@
 ---
-title: "몽골여행"
+title: "한국 병리학 의료진, 몽골 울란바토르서 협력 논의"
 description: "몽골의료진과 한국의료진의 만남"
 category: medical
 author: "백승화 기자"
