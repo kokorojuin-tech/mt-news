@@ -34,7 +34,7 @@ Dinner(회장 만찬) 등 공식 일정에도 함께할 예정이다.
 
 이 연구는 폐선암의 조직학적 아형인 lepidic pattern 중 종양이 주변 정상 폐조직 쪽으로 자라나는 형태(outgrowth lepidic pattern)가 침습 전 단계의 lepidic pattern과 비교해 갖는 임상병리학적 의미를 분석한 것으로, 폐선암의 병리 진단과 예후 평가에 참고자료가 될 것으로 기대된다.
 
-## President Dinner 등 교류 확대
+## President Dinner 참석 등 교류 확대
 
 하승연 학회장 등은 학술대회 기간 중 열리는 President Dinner에도 초대받아 참석할 예정이며, 이 석식은 유럽 무대에서 한국 병리학계의 교류와 협력을 다지는 자리가 될 전망이다.
 
