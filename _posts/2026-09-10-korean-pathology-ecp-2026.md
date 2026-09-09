@@ -2,9 +2,10 @@
 title: "대한병리학회, 스웨덴 스톡홀름 '제38회 유럽병리학회 학술대회' 참가"
 description: "하승연 회장·장기택 이사장 등 참석, 포스터 발표 등 예정. ECP 분과 모임은 올해 한국에서 개최."
 category: exchange
+author: 백승화 기자
 tags: [대한병리학회, ECP2026, 유럽병리학회, 국제학술대회]
-image: /assets/img/2026-09/ecp2026-korean-pathology.jpg
-image_caption: "스톡홀름 메쎄에서 열리는 제38회 유럽병리학회 학술대회(ECP 2026)."
+image: /assets/img/하승연 교수.jpg
+image_caption: "대한병리학회장 하승연 교수"
 lang: ko
 ---
 
