@@ -4,7 +4,7 @@ description: "하승연 회장·장기택 이사장 등 참석, 포스터 발표
 category: exchange
 author: 백승화 기자
 tags: [대한병리학회, ECP2026, 유럽병리학회, 국제학술대회]
-image: /assets/img/하승연 교수.jpg
+image: /assets/img/하승연교수.jpg
 image_caption: "대한병리학회장 하승연 교수"
 lang: ko
 ---
