@@ -5,7 +5,7 @@ category: exchange
 author: 백승화 기자
 tags: [검도, 오노하잇토류, 한일교류, 야부키도시야, 성균관검도관]
 image: /assets/img/friendly-keiko-01.jpg
-image_caption: "성균관 검도관에서 열린 한일 친선 케이코 후 기념 촬영. ⓒ MT News"
+image_caption: "오노하잇토류(小野派一刀流) 강습후 단체 기념 촬영. ⓒ MT News"
 lang: ko
 ---
 
@@ -30,9 +30,6 @@ lang: ko
 
 ![성균관 검도관에서 열린 한일 친선 케이코 후 기념 촬영](/assets/img/friendly-keiko-01.jpg)
 *성균관 검도관에서 열린 한일 친선 케이코 후 기념 촬영. ⓒ MT News*
-
-![친선 케이코에 함께한 한일 검도인들이 태극기 아래에서 단체 기념 촬영을 했다](/assets/imgfriendly-keiko-02.jpg)
-*친선 케이코에 함께한 한일 검도인들이 태극기 아래에서 단체 기념 촬영을 했다. ⓒ MT News*
 
 ## 3일차 — 검수원도장 방문, 형(形) 수련으로 마무리
 
