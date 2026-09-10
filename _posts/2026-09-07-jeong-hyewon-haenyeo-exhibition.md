@@ -4,7 +4,7 @@ description: "정혜원 작가 개인전 《해녀, 사라지지 않는 유물�
 category: interview
 author: "백승화 기자"
 tags: [제주해녀, 사진전, 정혜원, 문화유산]
-image: /assets/img/해녀포스터.jpg
+image: /assets/img/해녀포스터2.jpg
 image_caption: "정혜원 작가의 사진전 《해녀, 사라지지 않는 유물》 포스터."
 lang: ko
 ---
