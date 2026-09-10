@@ -4,8 +4,12 @@ description: "도쿄 경시청 검도 사범이자 오노하잇토류 18대 당�
 category: exchange
 author: 백승화 기자
 tags: [검도, 오노하잇토류, 한일교류, 야부키도시야, 성균관검도관]
-image: /assets/img/2026-09/friendly-keiko-01.jpg
-image_caption: "성균관 검도관에서 열린 한일 친선 케이코 후 기념 촬영. ⓒ MT News"
+image: /assets/img/kiriotoshi-practice.jpg
+image_caption: "오노하잇토류(小野派一刀流) 실습 장면. 참가자들이 목검을 마주하고 기본을 익히고 있다. ⓒ MT News"
+image: /assets/img/friendly-keiko-01.jpg
+image_caption: "오노하잇토류(小野派一刀流) 강습후 단체 기념 촬영. ⓒ MT News"
+image: /assets/img/friendly-keiko-01.jpg
+image_caption: "성균관 검도관에서 열린 한일 친선 稽古(케이코)후 기념 촬영. ⓒ MT News"
 lang: ko
 ---
 
