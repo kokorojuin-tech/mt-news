@@ -4,6 +4,7 @@
 #  카테고리 이름은 _config.yml 의 cats 에서 name_en / name_ja 로 관리합니다.
 # ══════════════════════════════════════════════════════════
 ko:
+  site_desc: "의료관광과 외국인환자 유치산업, 그리고 관광·의료산업의 국제교류를 기록하는 전문 미디어."
   date_format: "%Y년 %-m월 %-d일"
   home: "홈"
   about: "소개"
@@ -27,6 +28,7 @@ ko:
   sub_button: "구독하기"
 
 en:
+  site_desc: "Specialist media covering medical tourism, the inbound patient industry, and international exchange across Korea's tourism and healthcare sectors."
   date_format: "%B %-d, %Y"
   home: "Home"
   about: "About"
@@ -50,6 +52,7 @@ en:
   sub_button: "Subscribe"
 
 ja:
+  site_desc: "医療観光と外国人患者誘致産業、そして観光・医療産業の国際交流を記録する専門メディア。"
   date_format: "%Y年%-m月%-d日"
   home: "ホーム"
   about: "紹介"

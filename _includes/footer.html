@@ -3,7 +3,7 @@
     <div class="foot-grid">
       <div>
         <div class="mark">MT<span>·</span>News</div>
-        <p>{{ site.description }}</p>
+        <p>{{ T.site_desc | default: site.description }}</p>
       </div>
       <div>
         <h5>{{ T.sections }}</h5>

@@ -65,12 +65,21 @@ layout: default
     </div>
     {%- endif %}
 
+    {%- comment -%} 이전·다음 글은 같은 언어의 기사 안에서만 찾습니다 (site.posts 는 최신순). {%- endcomment -%}
+    {%- assign same_lang = site.posts | where: "lang", L -%}
+    {%- assign idx = -1 -%}
+    {%- for sp in same_lang -%}{%- if sp.url == page.url -%}{%- assign idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+    {%- assign prev_post = nil -%}{%- assign next_post = nil -%}
+    {%- if idx >= 0 -%}
+      {%- assign pi = idx | plus: 1 -%}{%- assign prev_post = same_lang[pi] -%}
+      {%- if idx > 0 -%}{%- assign ni = idx | minus: 1 -%}{%- assign next_post = same_lang[ni] -%}{%- endif -%}
+    {%- endif -%}
     <div class="nextprev">
-      {%- if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}"><span>{{ T.prev }}</span><b>{{ page.previous.title }}</b></a>
+      {%- if prev_post %}
+      <a href="{{ prev_post.url | relative_url }}"><span>{{ T.prev }}</span><b>{{ prev_post.title }}</b></a>
       {%- else %}<span></span>{% endif %}
-      {%- if page.next %}
-      <a href="{{ page.next.url | relative_url }}"><span>{{ T.next }}</span><b>{{ page.next.title }}</b></a>
+      {%- if next_post %}
+      <a href="{{ next_post.url | relative_url }}"><span>{{ T.next }}</span><b>{{ next_post.title }}</b></a>
       {%- endif %}
     </div>
   </article>
