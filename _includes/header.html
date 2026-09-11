@@ -21,10 +21,10 @@
         {%- assign t = tr | where: "lang", "zh" | first -%}{%- if t %}{% assign zh_url = t.url %}{% endif -%}
       {%- endif -%}
       <span class="lang">
-        <a href="{{ ko_url | relative_url }}" class="{% if L == 'ko' %}on{% endif %}">KO</a>
-        <a href="{{ en_url | relative_url }}" class="{% if L == 'en' %}on{% endif %}">EN</a>
-        <a href="{{ ja_url | relative_url }}" class="{% if L == 'ja' %}on{% endif %}">JA</a>
-        <a href="{{ zh_url | relative_url }}" class="{% if L == 'zh' %}on{% endif %}">ZH</a>
+        <a href="{{ ko_url | relative_url }}" lang="ko" class="{% if L == 'ko' %}on{% endif %}">한국어</a>
+        <a href="{{ en_url | relative_url }}" lang="en" class="{% if L == 'en' %}on{% endif %}">English</a>
+        <a href="{{ ja_url | relative_url }}" lang="ja" class="{% if L == 'ja' %}on{% endif %}">日本語</a>
+        <a href="{{ zh_url | relative_url }}" lang="zh" class="{% if L == 'zh' %}on{% endif %}">中文</a>
       </span>
     </div>
   </div>

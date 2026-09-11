@@ -31,7 +31,7 @@ img{max-width:100%;display:block}
 .utility .links{display:flex;gap:18px;align-items:center}
 .utility a:hover{color:var(--accent)}
 .lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
-.lang a{font-size:11.5px;letter-spacing:.04em;color:var(--ink-3);padding:4px 10px}
+.lang a{font-size:11.5px;letter-spacing:.02em;color:var(--ink-3);padding:4px 9px;white-space:nowrap}
 .lang a.on{background:var(--ink);color:#fff}
 
 /* ── 헤더 ─────────────────────────────── */
