@@ -16,7 +16,7 @@ layout: default
     {%- endif %}
 
     <div class="post-meta">
-      <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang == "en" or page.lang == "ja" %} · <b class="langtag">{{ page.lang | upcase }}</b>{% endif %}</span>
+      <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang and page.lang != "ko" %} · <b class="langtag">{{ page.lang | upcase }}</b>{% endif %}</span>
       <span class="share">
         <span onclick="navigator.clipboard.writeText(location.href)">{{ T.copy_link }}</span>
         <span onclick="window.print()">{{ T.print }}</span>

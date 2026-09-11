@@ -12,16 +12,19 @@
       {%- assign ko_url = '/' -%}
       {%- assign en_url = '/en/' -%}
       {%- assign ja_url = '/ja/' -%}
+      {%- assign zh_url = '/zh/' -%}
       {%- if page.translation_key -%}
         {%- assign tr = site.posts | where: "translation_key", page.translation_key -%}
         {%- assign t = tr | where: "lang", "ko" | first -%}{%- if t %}{% assign ko_url = t.url %}{% endif -%}
         {%- assign t = tr | where: "lang", "en" | first -%}{%- if t %}{% assign en_url = t.url %}{% endif -%}
         {%- assign t = tr | where: "lang", "ja" | first -%}{%- if t %}{% assign ja_url = t.url %}{% endif -%}
+        {%- assign t = tr | where: "lang", "zh" | first -%}{%- if t %}{% assign zh_url = t.url %}{% endif -%}
       {%- endif -%}
       <span class="lang">
-        <a href="{{ ko_url | relative_url }}" class="{% if page.lang != 'en' and page.lang != 'ja' %}on{% endif %}">KO</a>
-        <a href="{{ en_url | relative_url }}" class="{% if page.lang == 'en' %}on{% endif %}">EN</a>
-        <a href="{{ ja_url | relative_url }}" class="{% if page.lang == 'ja' %}on{% endif %}">JA</a>
+        <a href="{{ ko_url | relative_url }}" class="{% if L == 'ko' %}on{% endif %}">KO</a>
+        <a href="{{ en_url | relative_url }}" class="{% if L == 'en' %}on{% endif %}">EN</a>
+        <a href="{{ ja_url | relative_url }}" class="{% if L == 'ja' %}on{% endif %}">JA</a>
+        <a href="{{ zh_url | relative_url }}" class="{% if L == 'zh' %}on{% endif %}">ZH</a>
       </span>
     </div>
   </div>

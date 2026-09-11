@@ -6,7 +6,7 @@
       <span class="cat">{{ c[name_key] | default: c.name | default: p.category | default: T.article }}</span>
       <span class="dot">·</span>
       <span>{{ p.date | date: "%Y.%m.%d" }}</span>
-      {%- if p.lang == "en" or p.lang == "ja" %}
+      {%- if p.lang and p.lang != "ko" %}
       <span class="dot">·</span><span class="langtag">{{ p.lang | upcase }}</span>
       {%- endif %}
     </div>

@@ -1,6 +1,6 @@
 # ══════════════════════════════════════════════════════════
 #  화면 문구 번역표
-#  페이지의 lang 값(ko / en / ja)에 따라 메뉴·버튼·안내문이 바뀝니다.
+#  페이지의 lang 값(ko / en / ja / zh)에 따라 메뉴·버튼·안내문이 바뀝니다.
 #  카테고리 이름은 _config.yml 의 cats 에서 name_en / name_ja 로 관리합니다.
 # ══════════════════════════════════════════════════════════
 ko:
@@ -74,3 +74,27 @@ ja:
   sub_desc: "毎週月曜日の朝、医療観光・外国人患者誘致産業の主要トピックを5分で読める形でお届けします。"
   sub_placeholder: "メールアドレス"
   sub_button: "購読する"
+
+zh:
+  site_desc: "记录医疗旅游、外国患者引进产业，以及旅游·医疗产业国际交流的专业媒体。"
+  date_format: "%Y年%-m月%-d日"
+  home: "首页"
+  about: "关于我们"
+  contribute: "投稿·爆料"
+  search: "按主题查找"
+  sections: "栏目"
+  publisher: "发行人·主编"
+  article: "报道"
+  count_prefix: "共"
+  count_suffix: "篇"
+  empty: "暂无报道。"
+  copy_link: "复制链接"
+  print: "打印"
+  read_in: "其他语言"
+  related: "相关报道"
+  prev: "← 上一篇"
+  next: "下一篇 →"
+  sub_title: "MT News 每周简报"
+  sub_desc: "每周一早晨，用5分钟为您梳理医疗旅游与外国患者引进产业的核心议题。"
+  sub_placeholder: "电子邮箱"
+  sub_button: "订阅"

@@ -115,7 +115,7 @@ lang: ko
 | `tags` | 선택 | `[태그1, 태그2]` 형식. 태그 페이지에 자동 수집됩니다 |
 | `image` | 선택 | 대표 이미지 경로. 없으면 목록에서 글자만 표시됩니다 |
 | `image_caption` | 선택 | 사진 설명 |
-| `lang` | 선택 | 기본 `ko`. 영문 기사는 `en`, 일본어 기사는 `ja` → 목록에 EN/JA 배지가 붙고 `/en/`, `/ja/` 페이지에 모입니다 |
+| `lang` | 선택 | 기본 `ko`. 영문 `en`, 일본어 `ja`, 중국어 `zh` → 목록에 EN/JA/ZH 배지가 붙고 `/en/`, `/ja/`, `/zh/` 페이지에 모입니다 |
 | `author` | 선택 | 기본값은 `_config.yml`의 발행인 이름 |
 | `translation_key` | 선택 | 같은 기사의 다른 언어판을 묶는 키. 아래 "여러 언어로 내기" 참고 |
 
@@ -196,7 +196,7 @@ _posts/2026-09-11-mongolia-meditour-ja.md   ← 일본어
 | 항목 | 어떻게 쓰나 |
 |---|---|
 | `title`, `description` | 해당 언어로 번역해서 씁니다 (목록·검색·공유에 그대로 노출) |
-| `lang` | `en` 또는 `ja` |
+| `lang` | `en`, `ja` 또는 `zh` |
 | `translation_key` | 한국어 기사와 **똑같은 값** |
 | `category` | 한국어 기사와 같은 slug |
 | `tags` | 해당 언어로 써도 되고, 한국어 기사와 같게 써도 됩니다 |
@@ -252,8 +252,8 @@ translation_key: mongolia-meditour-2026
 
 - **뉴스레터 구독 연결** — `subscribe_action:` 에 Formspree·Buttondown 등에서 받은 주소를 넣습니다. 구독 배너는 모든 페이지 하단(푸터 위)에 표시됩니다
 - **한 페이지에 보여줄 기사 수** — `paginate:` 값 (기본 8건)
-- **카테고리 추가** — `cats:` 에 한 줄 추가(`name_en`, `name_ja` 도 함께) + `category/` 폴더에 기존 파일을 복사해 slug만 바꾼 파일 생성
-- **메뉴·버튼 문구 번역** — `_data/i18n.yml` 에서 언어별(ko / en / ja)로 수정. 페이지 언어에 따라 자동으로 바뀝니다
+- **카테고리 추가** — `cats:` 에 한 줄 추가(`name_en`, `name_ja`, `name_zh` 도 함께) + `category/` 폴더에 기존 파일을 복사해 slug만 바꾼 파일 생성
+- **메뉴·버튼 문구 번역** — `_data/i18n.yml` 에서 언어별(ko / en / ja / zh)로 수정. 페이지 언어에 따라 자동으로 바뀝니다
 - **포인트 컬러** — `assets/css/style.css` 최상단 `--accent` 값
 
 > `_config.yml`은 띄어쓰기에 민감합니다. 기존 줄의 들여쓰기를 그대로 따라 하세요.
@@ -298,6 +298,7 @@ translation_key: mongolia-meditour-2026
 ├── tags.html            주제별 보기
 ├── en.html              영문 기사 모음
 ├── ja.html              일본어 기사 모음
+├── zh.html              중국어 기사 모음
 ├── about.md             소개 페이지
 └── CNAME                연결할 도메인
 ```
