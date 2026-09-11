@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{%- include i18n.html -%}
 {%- assign c = site.cats | where: "slug", page.category | first -%}
 <div class="wrap">
   <article class="post">
     <div class="crumb">
-      <a href="{{ '/' | relative_url }}">홈</a> &nbsp;›&nbsp;
-      <b><a href="{{ '/category/' | append: page.category | append: '/' | relative_url }}">{{ c.name | default: "기사" }}</a></b>
+      <a href="{{ home_url | relative_url }}">{{ T.home }}</a> &nbsp;›&nbsp;
+      <b><a href="{{ '/category/' | append: page.category | append: '/' | relative_url }}">{{ c[name_key] | default: c.name | default: T.article }}</a></b>
     </div>
 
     <h1>{{ page.title }}</h1>
@@ -17,8 +18,8 @@ layout: default
     <div class="post-meta">
       <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang == "en" or page.lang == "ja" %} · <b class="langtag">{{ page.lang | upcase }}</b>{% endif %}</span>
       <span class="share">
-        <span onclick="navigator.clipboard.writeText(location.href)">링크복사</span>
-        <span onclick="window.print()">인쇄</span>
+        <span onclick="navigator.clipboard.writeText(location.href)">{{ T.copy_link }}</span>
+        <span onclick="window.print()">{{ T.print }}</span>
       </span>
     </div>
 
@@ -26,7 +27,7 @@ layout: default
     {%- assign translations = site.posts | where: "translation_key", page.translation_key | where_exp: "p", "p.url != page.url" | sort: "lang" -%}
     {%- if translations.size > 0 %}
     <div class="translations">
-      <span class="label">{% if page.lang == "en" %}Read in{% elsif page.lang == "ja" %}他の言語で読む{% else %}다른 언어로 읽기{% endif %}</span>
+      <span class="label">{{ T.read_in }}</span>
       {%- for t in translations %}
       <a href="{{ t.url | relative_url }}"><b class="langtag">{{ t.lang | default: "ko" | upcase }}</b>{{ t.title }}</a>
       {%- endfor %}
@@ -53,23 +54,23 @@ layout: default
     </div>
     {%- endif %}
 
-    {%- assign related = site.categories[page.category] | where_exp: "p", "p.url != page.url" -%}
+    {%- assign related = site.categories[page.category] | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.lang == page.lang" -%}
     {%- if related.size > 0 %}
     <div class="rel">
-      <h3>함께 읽으면 좋은 기사</h3>
+      <h3>{{ T.related }}</h3>
       {%- for p in related limit: 3 %}
       {%- assign rc = site.cats | where: "slug", p.category | first %}
-      <a href="{{ p.url | relative_url }}">{{ p.title }}<span>{{ rc.name }} · {{ p.date | date: "%Y.%m.%d" }}</span></a>
+      <a href="{{ p.url | relative_url }}">{{ p.title }}<span>{{ rc[name_key] | default: rc.name }} · {{ p.date | date: "%Y.%m.%d" }}</span></a>
       {%- endfor %}
     </div>
     {%- endif %}
 
     <div class="nextprev">
       {%- if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}"><span>← 이전 글</span><b>{{ page.previous.title }}</b></a>
+      <a href="{{ page.previous.url | relative_url }}"><span>{{ T.prev }}</span><b>{{ page.previous.title }}</b></a>
       {%- else %}<span></span>{% endif %}
       {%- if page.next %}
-      <a href="{{ page.next.url | relative_url }}"><span>다음 글 →</span><b>{{ page.next.title }}</b></a>
+      <a href="{{ page.next.url | relative_url }}"><span>{{ T.next }}</span><b>{{ page.next.title }}</b></a>
       {%- endif %}
     </div>
   </article>

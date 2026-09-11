@@ -25,26 +25,27 @@ subscribe_action: ""
 
 # ── 카테고리 ───────────────────────────────────────────────
 # slug 는 URL 에 쓰이는 영문 이름, name 은 화면에 보이는 이름입니다.
+# name_en / name_ja 는 영어·일본어 페이지에서 보이는 이름입니다 (없으면 name 이 그대로 보입니다).
 # 글 작성 시 front matter 에 category: policy 처럼 slug 를 씁니다.
 # 카테고리를 추가하면 category/ 폴더에 같은 이름의 파일도 만들어야 합니다.
 cats:
-  - { slug: exchange,  name: "국제교류" }
-  - { slug: column,    name: "칼럼" }
-  - { slug: policy,    name: "정책·제도" }
-  - { slug: stats,     name: "유치실적·통계" }
-  - { slug: global,    name: "글로벌" }
-  - { slug: medical,   name: "의료산업" }
-  - { slug: tourism,   name: "관광산업" }
-  - { slug: sports_health,   name: "스포츠 건강" }
-  - { slug: interview, name: "인터뷰" }
-  - { slug: report,    name: "리포트" }
+  - { slug: exchange,      name: "국제교류",      name_en: "International Exchange", name_ja: "国際交流" }
+  - { slug: column,        name: "칼럼",          name_en: "Column",                 name_ja: "コラム" }
+  - { slug: policy,        name: "정책·제도",     name_en: "Policy & Regulation",    name_ja: "政策・制度" }
+  - { slug: stats,         name: "유치실적·통계", name_en: "Statistics",             name_ja: "誘致実績・統計" }
+  - { slug: global,        name: "글로벌",        name_en: "Global",                 name_ja: "グローバル" }
+  - { slug: medical,       name: "의료산업",      name_en: "Medical Industry",       name_ja: "医療産業" }
+  - { slug: tourism,       name: "관광산업",      name_en: "Tourism Industry",       name_ja: "観光産業" }
+  - { slug: sports_health, name: "스포츠 건강",   name_en: "Sports & Health",        name_ja: "スポーツ・健康" }
+  - { slug: interview,     name: "인터뷰",        name_en: "Interview",              name_ja: "インタビュー" }
+  - { slug: report,        name: "리포트",        name_en: "Report",                 name_ja: "レポート" }
 
 # ── 푸터 링크 ─────────────────────────────────────────────
 footer_links:
-  - { name: "소개",      url: "/about/" }
-  - { name: "기고·제보",  url: "/about/#contact" }
-  - { name: "광고문의",   url: "/about/#contact" }
-  - { name: "RSS",       url: "/feed.xml" }
+  - { name: "소개",      name_en: "About",       name_ja: "紹介",             url: "/about/" }
+  - { name: "기고·제보",  name_en: "Contribute",  name_ja: "寄稿・情報提供",     url: "/about/#contact" }
+  - { name: "광고문의",   name_en: "Advertising", name_ja: "広告のお問い合わせ", url: "/about/#contact" }
+  - { name: "RSS",       name_en: "RSS",         name_ja: "RSS",              url: "/feed.xml" }
 
 # ── 빌드 설정 (건드리지 않아도 됩니다) ────────────────────────
 permalink: /news/:year/:month/:day/:title/

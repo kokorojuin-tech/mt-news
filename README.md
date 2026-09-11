@@ -252,7 +252,8 @@ translation_key: mongolia-meditour-2026
 
 - **뉴스레터 구독 연결** — `subscribe_action:` 에 Formspree·Buttondown 등에서 받은 주소를 넣습니다. 구독 배너는 모든 페이지 하단(푸터 위)에 표시됩니다
 - **한 페이지에 보여줄 기사 수** — `paginate:` 값 (기본 8건)
-- **카테고리 추가** — `cats:` 에 한 줄 추가 + `category/` 폴더에 기존 파일을 복사해 slug만 바꾼 파일 생성
+- **카테고리 추가** — `cats:` 에 한 줄 추가(`name_en`, `name_ja` 도 함께) + `category/` 폴더에 기존 파일을 복사해 slug만 바꾼 파일 생성
+- **메뉴·버튼 문구 번역** — `_data/i18n.yml` 에서 언어별(ko / en / ja)로 수정. 페이지 언어에 따라 자동으로 바뀝니다
 - **포인트 컬러** — `assets/css/style.css` 최상단 `--accent` 값
 
 > `_config.yml`은 띄어쓰기에 민감합니다. 기존 줄의 들여쓰기를 그대로 따라 하세요.

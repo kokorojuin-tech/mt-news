@@ -1,0 +1,12 @@
+{%- comment -%}
+  현재 페이지 언어(L)와 그 언어의 문구표(T)를 정합니다.
+  레이아웃 맨 위에서 {% include i18n.html %} 로 불러 쓰세요.
+{%- endcomment -%}
+{%- assign L = page.lang | default: site.lang | default: "ko" -%}
+{%- assign T = site.data.i18n[L] | default: site.data.i18n.ko -%}
+{%- assign name_key = "name_" | append: L -%}
+{%- case L -%}
+  {%- when "en" -%}{%- assign home_url = "/en/" -%}
+  {%- when "ja" -%}{%- assign home_url = "/ja/" -%}
+  {%- else -%}{%- assign home_url = "/" -%}
+{%- endcase -%}

@@ -3,7 +3,7 @@
 <article class="row{% unless p.image %} no-img{% endunless %}">
   <div>
     <div class="meta">
-      <span class="cat">{{ c.name | default: p.category | default: "기사" }}</span>
+      <span class="cat">{{ c[name_key] | default: c.name | default: p.category | default: T.article }}</span>
       <span class="dot">·</span>
       <span>{{ p.date | date: "%Y.%m.%d" }}</span>
       {%- if p.lang == "en" or p.lang == "ja" %}
