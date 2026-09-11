@@ -5,10 +5,23 @@
       <a href="{{ '/about/' | relative_url }}">소개</a>
       <a href="{{ '/about/#contact' | relative_url }}">기고·제보</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      {%- comment -%}
+        언어 버튼: 기사에 translation_key 가 있으면 같은 키의 해당 언어판으로 바로 이동,
+        번역판이 없거나 기사 페이지가 아니면 언어별 목록 페이지로 이동합니다.
+      {%- endcomment -%}
+      {%- assign ko_url = '/' -%}
+      {%- assign en_url = '/en/' -%}
+      {%- assign ja_url = '/ja/' -%}
+      {%- if page.translation_key -%}
+        {%- assign tr = site.posts | where: "translation_key", page.translation_key -%}
+        {%- assign t = tr | where: "lang", "ko" | first -%}{%- if t %}{% assign ko_url = t.url %}{% endif -%}
+        {%- assign t = tr | where: "lang", "en" | first -%}{%- if t %}{% assign en_url = t.url %}{% endif -%}
+        {%- assign t = tr | where: "lang", "ja" | first -%}{%- if t %}{% assign ja_url = t.url %}{% endif -%}
+      {%- endif -%}
       <span class="lang">
-        <a href="{{ '/' | relative_url }}" class="{% if page.lang != 'en' and page.lang != 'ja' %}on{% endif %}">KO</a>
-        <a href="{{ '/en/' | relative_url }}" class="{% if page.lang == 'en' %}on{% endif %}">EN</a>
-        <a href="{{ '/ja/' | relative_url }}" class="{% if page.lang == 'ja' %}on{% endif %}">JA</a>
+        <a href="{{ ko_url | relative_url }}" class="{% if page.lang != 'en' and page.lang != 'ja' %}on{% endif %}">KO</a>
+        <a href="{{ en_url | relative_url }}" class="{% if page.lang == 'en' %}on{% endif %}">EN</a>
+        <a href="{{ ja_url | relative_url }}" class="{% if page.lang == 'ja' %}on{% endif %}">JA</a>
       </span>
     </div>
   </div>
