@@ -5,6 +5,7 @@ category: stats
 author: Jang Hye-yeon, Reporter
 tags: [foreign patients, medical tourism, Ministry of Health and Welfare, statistics]
 lang: en
+translation_key: 외국인환자유치 추이
 ---
 
 The number of foreign patients who visited Korea last year surpassed 2 million for the first time. After a sharp drop during the COVID-19 pandemic, the figure has nearly doubled for three consecutive years, leading to assessments that Korea is establishing itself as the center of Asia's medical tourism market.
