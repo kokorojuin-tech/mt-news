@@ -1,75 +1,73 @@
 ---
-title: "한국 병리학 의료진, 몽골 울란바토르서 협력 논의"
-description: "몽골의료진과 한국의료진의 만남"
+title: "Korean Pathology Medical Team Discusses Cooperation in Ulaanbaatar, Mongolia"
+description: "A meeting between Mongolian and Korean medical teams"
 category: medical
-author: "백승화 기자"
-tags: [몽골, 의료, 관광]
+author: "Baek Seung-hwa, Reporter"
+tags: [Mongolia, medical, tourism]
 image: /assets/img/몽골 한국 의료진 사진.jpg
-image_caption: "몽골의료진과 한국의료진. ⓒ MT News"
+image_caption: "Mongolian and Korean medical teams. ⓒ MT News"
 translation_key: 한국 몽골 의료협력
-lang: ko
+lang: en
 ---
 
-# 한·몽 의료협력 새로운 길 모색…20년 이어온 병리학 교류, 양국 의료협업으로 확대
+# Korea-Mongolia Medical Cooperation Seeks New Path…20 Years of Pathology Exchange Expands into Bilateral Medical Collaboration
 
-### 김한겸 하나로의료재단 센터장(전 고려대의대 교수)·하승연 대한병리학회장 등 의료진 몽골 방문
+### Kim Han-kyeom, Director of Hanaro Medical Foundation Center (former professor at Korea University College of Medicine), Ha Seung-yeon, President of the Korean Society of Pathologists, and other medical staff visit Mongolia
 
-### 몽골 병리과 의사들과 만나 의료교육·진단·환자 진료 등 협력 방안 논의
+### Meeting with Mongolian pathologists to discuss cooperation in medical education, diagnosis, and patient care
 
-한국과 몽골 간 의료 분야의 오랜 교류가 양국 의료진 간 실질적인 협력으로 확대될 전망이다.
+The long-standing exchange in the medical field between Korea and Mongolia is set to expand into practical cooperation between medical teams from both countries.
 
-지난 8월, 한국의 병리학 분야 의료진과 관계자들이 몽골을 방문해 현지 병리과 의사들과 만나 양국 의료협력의 발전 방향을 논의했다.
+Last August, Korean medical professionals in the field of pathology visited Mongolia to meet with local pathologists and discuss the direction of future medical cooperation between the two countries.
 
-이번 방문에는 **김한겸 하나로의료재단 센터장(전 고려대학교 의과대학 교수)**을 비롯해 **하승연 현 대한병리학회장 겸 가천대학교 의과대학 교수** 등 국내 병리학 분야 전문가들이 함께했다.
+The visit included domestic pathology experts such as **Kim Han-kyeom, Director of the Hanaro Medical Foundation Center (former professor at Korea University College of Medicine)**, and **Ha Seung-yeon, current President of the Korean Society of Pathologists and professor at Gachon University College of Medicine**.
 
-특히 이들 대학병원 교수들을 중심으로, 약 20년 전부터 몽골을 방문하며 현지 의사들을 대상으로 병리학 교육과 의료지식을 전수해 왔으며, 몽골 의료진들과 지속적으로 교류하며 병리학 분야의 교육과 
+In particular, these university hospital professors have been visiting Mongolia for about 20 years, providing pathology education and medical knowledge to local doctors, and have continued ongoing exchange with Mongolian medical staff in education and knowledge-sharing in the field of pathology. This visit is being recognized as an occasion to reaffirm the significance of this long-running Korea-Mongolia medical exchange.
 
-지식 공유를 이어왔다 이번 방문은 오랜 기간 이어져 온 한·몽 의료교류의 의미를 다시 확인하는 자리라는 평가를 받고 있다. 
+## 20 Years of Pathology Exchange Between Korea and Mongolia
 
-## 20년간 이어진 한국과 몽골의 병리학 교류
+Pathology is a medical field that analyzes patients' tissues and cells to diagnose disease and determine treatment direction, playing a critical role in modern medicine.
 
-병리학은 환자의 조직과 세포 등을 분석해 질병을 진단하고 치료 방향을 결정하는 의료 분야로, 현대 의료에서 매우 중요한 역할을 담당한다.
+While past exchanges were mainly education-focused, centered on transferring Korea's advanced pathology knowledge and diagnostic experience to Mongolian medical staff, the need has grown recently—alongside changes in both countries' medical environments—to develop this into more substantive medical cooperation.
 
-과거에는 한국의 선진적인 병리학 지식과 진단 경험을 몽골 의료진에게 전달하는 교육 중심의 교류가 주를 이뤘다면, 최근에는 양국 의료환경의 변화와 함께 보다 실질적인 의료협력으로 발전할 필요성이 커지고 있다.
+Against this backdrop, this visit carries significant meaning in that pathology experts from Korea and Mongolia met directly to reflect on their exchange so far and explore possibilities for future cooperation.
 
-이번 방문은 이러한 흐름 속에서 한국과 몽골의 병리학 전문가들이 직접 만나 그동안의 교류를 되돌아보고 앞으로의 협력 가능성을 모색했다는 점에서 의미가 크다.
+## Discussing Practical Cooperation Measures with Mongolian Pathology Medical Staff
 
-## 몽골 병리과 의료진과 실질적인 협력방안 논의
+The visiting delegation met with local Mongolian pathologists and exchanged views on ways to expand cooperation between medical teams of both countries.
 
-방문단은 몽골 현지 병리과 의사들과 만나 양국 의료진 간 협력 확대 방안에 대해 의견을 나눴다.
+Key discussion areas included pathology-related medical education and exchange of specialized personnel, cooperation in medical technology and diagnostics, and building networks between medical institutions of both countries.
 
-주요 논의 분야는 병리학 관련 의료교육과 전문인력 교류를 비롯해 의료기술 및 진단 분야의 협력, 양국 의료기관 간 네트워크 구축 등이다.
+Particular attention was drawn to the potential benefit to the development of medical services in both countries if Korea's accumulated clinical and pathological diagnostic experience were combined with Mongolian medical staff's understanding of the local medical environment.
 
-특히 한국의 의료진이 축적해 온 임상 및 병리 진단 경험과 몽골 의료진의 현지 의료환경에 대한 이해를 결합할 경우 양국 의료서비스의 발전에 도움이 될 수 있다는 데 관심이 모아졌다.
+Discussions also covered ways to build a long-term medical cooperation framework through continuous exchange between medical staff, rather than limiting engagement to one-off visits or education sessions.
 
-또한 의료진 간 지속적인 교류를 통해 단순한 일회성 방문이나 교육에 그치지 않고 장기적인 의료협력 체계를 구축하는 방안도 논의됐다.
+## From Medical Education to Patient Care and Medical Industry Cooperation
 
-## 의료교육에서 환자 진료·의료산업 협력으로
+Another reason this visit to Mongolia is drawing attention is that it demonstrates the potential for **Korea-Mongolia medical cooperation to expand beyond medical education into patient care, medical services, and the medical industry sector.**
 
-이번 몽골 방문이 주목받는 또 다른 이유는 한·몽 의료협력의 범위가 의료교육을 넘어 **환자 진료와 의료서비스, 의료산업 분야로 확대될 가능성**을 보여주고 있기 때문이다.
+Interest in Korean healthcare has been steadily rising in Mongolia, and the number of Mongolian patients visiting Korean medical institutions is also increasing.
 
-몽골에서는 한국 의료에 대한 관심이 꾸준히 높아지고 있으며, 한국의 의료기관을 찾는 몽골 환자들도 증가하고 있다.
+Accordingly, building a cooperative network based on trust between the medical staff of both countries could serve as an important foundation for the treatment and care process of foreign patients as well.
 
-이에 따라 양국 의료진 간 신뢰를 바탕으로 한 협력 네트워크를 구축하는 것은 외국인 환자의 진료와 치료 과정에서도 중요한 기반이 될 수 있다.
+In particular, since accurate pathological diagnosis is essential in determining the treatment direction for severe diseases including cancer, cooperation in the field of pathology is regarded as an important area for improving the quality of bilateral medical cooperation.
 
-특히 정확한 병리 진단은 암을 비롯한 중증질환의 치료방향을 결정하는 데 핵심적인 만큼, 병리학 분야의 협력은 양국 의료협력의 질을 높이는 중요한 분야로 평가된다.
+## "Turning 20 Years of Exchange into a Starting Point for New Cooperation"
 
-## "20년의 교류를 새로운 협력의 출발점으로"
+The medical staff who participated in this visit place importance on the need to further develop the trust and exchange accumulated between Korean and Mongolian medical teams over the past 20 years.
 
-이번 방문에 참여한 의료진들은 지난 20년 동안 축적된 한·몽 의료진 간 신뢰와 교류를 앞으로 더욱 발전시킬 필요가 있다는 데 의미를 두고 있다.
+The long-term education of Mongolian medical personnel by Professor Kim Han-kyeom and other pathology professors is cited as a representative example of Korea-Mongolia medical exchange. The trust built through one medical expert's long-term relationship with medical staff in another country is now becoming the foundation for more systematic cooperation between medical institutions and medical staff of both countries.
 
-김한겸 교수를 비롯한 병리학 교수들의 장기간에 걸친 몽골 의료인 교육은 한·몽 의료교류의 대표적인 사례로 꼽힌다. 한 명의 의료 전문가가 오랜 기간 한 국가의 의료진과 관계를 이어오면서 형성된 신뢰가 이제는 양국 의료기관과 의료진 간 보다 체계적인 협력으로 발전할 수 있는 기반이 되고 있는 것이다.
+Ha Seung-yeon, President of the Korean Society of Pathologists, also confirmed through this visit the potential for expanding exchange with Mongolian pathology medical staff and for cooperation toward the development of the pathology field in both countries.
 
-하승연 대한병리학회장 역시 이번 방문을 통해 몽골 병리과 의료진과의 교류를 확대하고 양국 병리학 분야의 발전을 위한 협력 가능성을 확인했다.
+## Korea-Mongolia Medical Cooperation Prepares for a New 20 Years
 
-## 한·몽 의료협력, 새로운 20년을 준비하다
+This visit to Mongolia is expected to serve as an opportunity to **develop the 20-year Korea-Mongolia pathology exchange into a new stage of medical cooperation**, going beyond simple exchange between medical staff.
 
-이번 몽골 방문은 단순한 의료진 교류를 넘어 **20년간 이어져 온 한·몽 병리학 교류를 새로운 의료협력의 단계로 발전시키는 계기**가 될 것으로 기대된다.
+Should academic exchange, education programs, and cooperation between medical institutions between the two countries' medical staff continue to expand, Korea and Mongolia are expected to be able to cooperate not only in medical staff education but also in diagnosis and treatment, care for foreign patients, and various fields including medical services and the medical industry.
 
-앞으로 양국 의료진 간 학술교류와 교육 프로그램, 의료기관 간 협력 등이 지속적으로 확대될 경우 한국과 몽골은 의료진 교육뿐 아니라 진단 및 치료, 외국인 환자 진료, 의료서비스와 의료산업 등 다양한 분야에서 협력할 수 있을 것으로 전망된다.
+In particular, the experience and networks of Korean medical experts who have built long-term trust with local medical staff are expected to become an important asset for future Korea-Mongolia medical cooperation.
 
-특히 오랜 기간 현지 의료진과 신뢰를 쌓아온 한국 의료 전문가들의 경험과 네트워크는 향후 한·몽 의료협력의 중요한 자산이 될 것으로 보인다.
+A small connection born of medical education 20 years ago is now developing into a new platform for cooperation connecting the medical staff and institutions of both countries.
 
-20년 전 시작된 작은 의료교육의 인연이 이제 양국 의료진과 의료기관을 연결하는 새로운 협력의 플랫폼으로 발전하고 있다.
-
-**한국과 몽골의 의료협력은 이제 과거의 교류를 넘어 새로운 20년을 향한 출발점에 서 있다.**
+**Medical cooperation between Korea and Mongolia now stands at the starting point of a new 20 years, going beyond the exchanges of the past.**
