@@ -6,6 +6,7 @@ author: "백승화 기자"
 tags: [몽골, 의료, 관광]
 image: /assets/img/몽골 한국 의료진 사진.jpg
 image_caption: "몽골의료진과 한국의료진. ⓒ MT News"
+translation_key: 한국 몽골 의료협력
 lang: ko
 ---
 
