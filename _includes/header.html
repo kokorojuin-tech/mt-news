@@ -6,8 +6,9 @@
       <a href="{{ '/about/#contact' | relative_url }}">기고·제보</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       <span class="lang">
-        <a href="{{ '/' | relative_url }}" class="{% if page.lang != 'en' %}on{% endif %}">KO</a>
+        <a href="{{ '/' | relative_url }}" class="{% if page.lang != 'en' and page.lang != 'ja' %}on{% endif %}">KO</a>
         <a href="{{ '/en/' | relative_url }}" class="{% if page.lang == 'en' %}on{% endif %}">EN</a>
+        <a href="{{ '/ja/' | relative_url }}" class="{% if page.lang == 'ja' %}on{% endif %}">JA</a>
       </span>
     </div>
   </div>

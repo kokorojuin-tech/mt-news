@@ -15,12 +15,24 @@ layout: default
     {%- endif %}
 
     <div class="post-meta">
-      <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang == "en" %} · <b class="langtag">EN</b>{% endif %}</span>
+      <span>{{ page.author | default: site.author }} · {{ page.date | date: "%Y.%m.%d" }}{% if page.lang == "en" or page.lang == "ja" %} · <b class="langtag">{{ page.lang | upcase }}</b>{% endif %}</span>
       <span class="share">
         <span onclick="navigator.clipboard.writeText(location.href)">링크복사</span>
         <span onclick="window.print()">인쇄</span>
       </span>
     </div>
+
+    {%- if page.translation_key %}
+    {%- assign translations = site.posts | where: "translation_key", page.translation_key | where_exp: "p", "p.url != page.url" | sort: "lang" -%}
+    {%- if translations.size > 0 %}
+    <div class="translations">
+      <span class="label">{% if page.lang == "en" %}Read in{% elsif page.lang == "ja" %}他の言語で読む{% else %}다른 언어로 읽기{% endif %}</span>
+      {%- for t in translations %}
+      <a href="{{ t.url | relative_url }}"><b class="langtag">{{ t.lang | default: "ko" | upcase }}</b>{{ t.title }}</a>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    {%- endif %}
 
     {%- if page.image %}
     <figure>

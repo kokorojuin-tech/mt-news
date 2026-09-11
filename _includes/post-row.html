@@ -6,8 +6,8 @@
       <span class="cat">{{ c.name | default: p.category | default: "기사" }}</span>
       <span class="dot">·</span>
       <span>{{ p.date | date: "%Y.%m.%d" }}</span>
-      {%- if p.lang == "en" %}
-      <span class="dot">·</span><span class="langtag">EN</span>
+      {%- if p.lang == "en" or p.lang == "ja" %}
+      <span class="dot">·</span><span class="langtag">{{ p.lang | upcase }}</span>
       {%- endif %}
     </div>
     <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>

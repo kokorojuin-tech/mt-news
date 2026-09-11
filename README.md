@@ -111,12 +111,13 @@ lang: ko
 |---|---|---|
 | `title` | 필수 | 기사 제목. 콜론(`:`)이 들어가면 반드시 큰따옴표로 감쌉니다 |
 | `description` | 권장 | 목록·검색결과·SNS 공유에 쓰이는 요약. 없으면 본문 앞부분이 자동 사용됩니다 |
-| `category` | 필수 | 아래 8개 중 하나를 **영문 slug로** 씁니다 |
+| `category` | 필수 | 아래 10개 중 하나를 **영문 slug로** 씁니다 |
 | `tags` | 선택 | `[태그1, 태그2]` 형식. 태그 페이지에 자동 수집됩니다 |
 | `image` | 선택 | 대표 이미지 경로. 없으면 목록에서 글자만 표시됩니다 |
 | `image_caption` | 선택 | 사진 설명 |
-| `lang` | 선택 | 기본 `ko`. 영문 기사는 `en` → 목록에 EN 배지가 붙고 `/en/` 페이지에 모입니다 |
+| `lang` | 선택 | 기본 `ko`. 영문 기사는 `en`, 일본어 기사는 `ja` → 목록에 EN/JA 배지가 붙고 `/en/`, `/ja/` 페이지에 모입니다 |
 | `author` | 선택 | 기본값은 `_config.yml`의 발행인 이름 |
+| `translation_key` | 선택 | 같은 기사의 다른 언어판을 묶는 키. 아래 "여러 언어로 내기" 참고 |
 
 **카테고리 slug**
 
@@ -131,6 +132,7 @@ lang: ko
 | `global` | 글로벌 |
 | `medical` | 의료산업 |
 | `tourism` | 관광산업 |
+| `sports_health` | 스포츠 건강 |
 | `interview` | 인터뷰 |
 | `report` | 리포트 |
 
@@ -158,6 +160,88 @@ lang: ko
 |---|---|
 | 항목 | 31.4% |
 ```
+
+### 2-5. 같은 기사를 여러 언어로 내기
+
+한 기사를 한국어·영어·일본어로 함께 내고 싶을 때는 **언어마다 파일을 하나씩** 만들고, 모든 파일에 **같은 `translation_key`** 를 넣습니다. 그러면 각 기사 상단에 다른 언어판으로 가는 링크가 자동으로 붙습니다.
+
+**1단계. 한국어 기사를 먼저 올립니다**
+
+평소처럼 쓰되, front matter 에 `translation_key` 한 줄을 추가합니다. 키는 영문 소문자·숫자·하이픈으로 자유롭게 짓고, 기사마다 서로 다르게 합니다. 파일 이름 뒷부분을 그대로 쓰면 편합니다.
+
+```yaml
+---
+title: "몽골 보건부, 한국 의료기관과 환자 유치 협약 체결"
+description: "울란바토르에서 열린 협약식에서 양국은 연 2천 명 규모의 환자 송출에 합의했다."
+category: exchange
+tags: [몽골, 국제교류]
+image: /assets/img/2026-09/mongolia-meditour.jpg
+lang: ko
+translation_key: mongolia-meditour-2026
+---
+```
+
+**2단계. 번역판 파일을 만듭니다**
+
+같은 날짜로 새 파일을 만들고, 파일 이름 끝에 언어 코드를 붙여 주소가 겹치지 않게 합니다.
+
+```
+_posts/2026-09-11-mongolia-meditour.md      ← 한국어
+_posts/2026-09-11-mongolia-meditour-en.md   ← 영어
+_posts/2026-09-11-mongolia-meditour-ja.md   ← 일본어
+```
+
+번역판의 front matter 는 아래 규칙으로 씁니다.
+
+| 항목 | 어떻게 쓰나 |
+|---|---|
+| `title`, `description` | 해당 언어로 번역해서 씁니다 (목록·검색·공유에 그대로 노출) |
+| `lang` | `en` 또는 `ja` |
+| `translation_key` | 한국어 기사와 **똑같은 값** |
+| `category` | 한국어 기사와 같은 slug |
+| `tags` | 해당 언어로 써도 되고, 한국어 기사와 같게 써도 됩니다 |
+| `image`, `image_caption` | 같은 사진을 그대로 쓰면 됩니다. 캡션만 번역하세요 |
+
+```yaml
+---
+title: "Mongolia's Health Ministry Signs Patient Referral Pact with Korean Hospitals"
+description: "The agreement, signed in Ulaanbaatar, targets 2,000 outbound patients a year."
+category: exchange
+tags: [Mongolia, exchange]
+image: /assets/img/2026-09/mongolia-meditour.jpg
+image_caption: "Signing ceremony in Ulaanbaatar. ⓒ MT News"
+lang: en
+translation_key: mongolia-meditour-2026
+---
+```
+
+```yaml
+---
+title: "モンゴル保健省、韓国医療機関と患者誘致協定を締結"
+description: "ウランバートルで開かれた調印式で、両国は年間2千人規模の患者送出に合意した。"
+category: exchange
+tags: [モンゴル, 国際交流]
+image: /assets/img/2026-09/mongolia-meditour.jpg
+image_caption: "ウランバートルでの調印式。ⓒ MT News"
+lang: ja
+translation_key: mongolia-meditour-2026
+---
+```
+
+**3단계. 올리고 확인합니다**
+
+파일을 올리면 1~2분 뒤 다음이 자동으로 됩니다.
+
+- 각 기사 상단에 **"다른 언어로 읽기: EN · JA"** (영어판에는 "Read in", 일본어판에는 "他の言語で読む") 링크가 붙습니다
+- 영어판은 `/en/`, 일본어판은 `/ja/` 페이지에 모이고, 목록에 EN / JA 배지가 붙습니다
+- 홈과 카테고리 페이지에는 세 언어판이 모두 나옵니다
+
+**자주 하는 실수**
+
+- 키 값의 오타 → 링크가 안 붙습니다. 세 파일에서 `translation_key` 값을 복사해 붙여 넣으세요
+- 파일 이름이 같음 → 주소가 겹쳐 한 쪽이 사라집니다. 반드시 `-en`, `-ja` 를 붙이세요
+- `lang` 을 빼먹음 → 한국어로 취급되어 `/en/`, `/ja/` 에 나오지 않고 배지도 안 붙습니다
+- 번역판 없이 한국어 기사만 낼 때는 `translation_key` 를 적지 않아도 됩니다. 나중에 번역판을 추가할 때 한국어 파일에 키를 넣으면 됩니다
 
 ---
 
@@ -211,6 +295,7 @@ lang: ko
 ├── index.html           홈
 ├── tags.html            주제별 보기
 ├── en.html              영문 기사 모음
+├── ja.html              일본어 기사 모음
 ├── about.md             소개 페이지
 └── CNAME                연결할 도메인
 ```
