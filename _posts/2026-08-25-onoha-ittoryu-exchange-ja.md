@@ -3,7 +3,7 @@ title: "日本警視庁 矢吹八段先生、13年ぶりに訪韓… 小野派�
 description: "東京警視庁剣道師範であり小野派一刀流18代当主である矢吹八段先生が、13年ぶりに韓国を訪れ、2泊3日間の講演と親善交流を行った。"
 category: exchange
 author: 白承和 記者
-tags: [剣道, 小野派一刀流, 日韓交流, 矢吹俊哉, 成均館剣道館]
+tags: [剣道, 小野派一刀流, 日韓交流, 矢吹, 成均館剣道館]
 image: /assets/img/friendly-keiko-01.jpg
 image_caption: "小野派一刀流講習後の団体記念撮影。ⓒ MT News"
 lang: ja
