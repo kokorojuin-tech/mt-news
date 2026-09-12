@@ -45,6 +45,7 @@ footer_links:
   - { name: "소개",      name_en: "About",       name_ja: "紹介", name_zh: "关于我们",             url: "/about/" }
   - { name: "기고·제보",  name_en: "Contribute",  name_ja: "寄稿・情報提供", name_zh: "投稿·爆料",     url: "/about/#contact" }
   - { name: "광고문의",   name_en: "Advertising", name_ja: "広告のお問い合わせ", name_zh: "广告咨询", url: "/about/#contact" }
+  - { name: "개인정보처리방침", name_en: "Privacy Policy", name_ja: "プライバシーポリシー", name_zh: "隐私政策", url: "/privacy/" }
   - { name: "RSS",       name_en: "RSS",         name_ja: "RSS", name_zh: "RSS",              url: "/feed.xml" }
 
 # ── 빌드 설정 (건드리지 않아도 됩니다) ────────────────────────

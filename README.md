@@ -297,6 +297,7 @@ translation_key: mongolia-meditour-2026
 │   ├── en/ ja/ zh/      언어별 카테고리 목록 페이지
 ├── index.html           홈
 ├── tags.html            주제별 보기
+├── privacy.md           개인정보처리방침
 ├── en.html              영문 기사 모음
 ├── ja.html              일본어 기사 모음
 ├── zh.html              중국어 기사 모음
