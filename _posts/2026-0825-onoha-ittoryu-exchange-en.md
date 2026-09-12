@@ -10,7 +10,7 @@ lang: en
 translation_key: 오노하잇토류
 ---
 
-Yabuki Toshiya (矢吹先生), 8th Dan kendo instructor at the Tokyo Metropolitan Police Department and 18th head of Ono-ha Itto-ryu, visited Korea for the first time in 13 years. During this visit, Yabuki Sensei delivered lectures and practical instruction conveying the history and philosophy of Ono-ha Itto-ryu, and visited the Sungkyunkwan Kendo Hall for a friendly keiko session between Korean and Japanese 8th Dan instructors, strengthening ties between kendo practitioners of both countries over a 3-day, 2-night itinerary.
+Yabuki(矢吹), 8th Dan kendo instructor at the Tokyo Metropolitan Police Department and 18th head of Ono-ha Itto-ryu, visited Korea for the first time in 13 years. During this visit, Yabuki Sensei delivered lectures and practical instruction conveying the history and philosophy of Ono-ha Itto-ryu, and visited the Sungkyunkwan Kendo Hall for a friendly keiko session between Korean and Japanese 8th Dan instructors, strengthening ties between kendo practitioners of both countries over a 3-day, 2-night itinerary.
 
 Ono-ha Itto-ryu is regarded as one of the classical (koryu) swordsmanship schools from which many key techniques of modern Japanese kendo originated. In particular, the principle of "kiriotoshi" (切り落とし)—cutting down the opponent's sword by pressing it from above—is known to be directly connected to the fundamental theories behind today's kendo techniques such as debana-waza and suriage-waza. As the 18th successor (head) of this school, Yabuki Sensei was accompanied on this visit by six Korean members interested in Ono-ha Itto-ryu.
 
