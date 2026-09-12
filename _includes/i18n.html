@@ -5,9 +5,10 @@
 {%- assign L = page.lang | default: site.lang | default: "ko" -%}
 {%- assign T = site.data.i18n[L] | default: site.data.i18n.ko -%}
 {%- assign name_key = "name_" | append: L -%}
-{%- case L -%}
-  {%- when "en" -%}{%- assign home_url = "/en/" -%}
-  {%- when "ja" -%}{%- assign home_url = "/ja/" -%}
-  {%- when "zh" -%}{%- assign home_url = "/zh/" -%}
-  {%- else -%}{%- assign home_url = "/" -%}
-{%- endcase -%}
+{%- if L == "ko" -%}
+  {%- assign home_url = "/" -%}
+  {%- assign cat_base = "/category/" -%}
+{%- else -%}
+  {%- assign home_url = "/" | append: L | append: "/" -%}
+  {%- assign cat_base = home_url | append: "category/" -%}
+{%- endif -%}

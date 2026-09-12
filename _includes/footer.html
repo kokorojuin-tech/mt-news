@@ -9,7 +9,7 @@
         <h5>{{ T.sections }}</h5>
         <ul>
           {%- for c in site.cats limit: 5 %}
-          <li><a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}">{{ c[name_key] | default: c.name }}</a></li>
+          <li><a href="{{ cat_base | append: c.slug | append: '/' | relative_url }}">{{ c[name_key] | default: c.name }}</a></li>
           {%- endfor %}
         </ul>
       </div>

@@ -3,15 +3,14 @@ layout: default
 ---
 {%- include i18n.html -%}
 {%- comment -%}
-  카테고리 / EN 등 목록형 페이지 공용 레이아웃.
-  page.cat 이 있으면 해당 카테고리 글만, page.filter_lang 이 있으면 해당 언어 글만 보여줍니다.
+  카테고리 / 언어별 모음 등 목록형 페이지 공용 레이아웃.
+  항상 페이지 언어(lang, 없으면 ko)의 글만 보여주고, page.cat 이 있으면 그 카테고리로 한 번 더 거릅니다.
 {%- endcomment -%}
+{%- assign lang_filter = page.filter_lang | default: L -%}
 {%- if page.cat -%}
-  {%- assign items = site.categories[page.cat] -%}
-{%- elsif page.filter_lang -%}
-  {%- assign items = site.posts | where: "lang", page.filter_lang -%}
+  {%- assign items = site.categories[page.cat] | where: "lang", lang_filter -%}
 {%- else -%}
-  {%- assign items = site.posts -%}
+  {%- assign items = site.posts | where: "lang", lang_filter -%}
 {%- endif -%}
 
 <div class="wrap narrow">

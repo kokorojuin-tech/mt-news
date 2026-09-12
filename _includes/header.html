@@ -44,7 +44,7 @@
       <ul>
         <li><a href="{{ home_url | relative_url }}" class="{% if page.url == home_url %}on{% endif %}">{{ T.home }}</a></li>
         {%- for c in site.cats %}
-        <li><a href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}"
+        <li><a href="{{ cat_base | append: c.slug | append: '/' | relative_url }}"
                class="{% if page.cat == c.slug or page.category == c.slug %}on{% endif %}">{{ c[name_key] | default: c.name }}</a></li>
         {%- endfor %}
       </ul>

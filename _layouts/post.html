@@ -7,7 +7,7 @@ layout: default
   <article class="post">
     <div class="crumb">
       <a href="{{ home_url | relative_url }}">{{ T.home }}</a> &nbsp;›&nbsp;
-      <b><a href="{{ '/category/' | append: page.category | append: '/' | relative_url }}">{{ c[name_key] | default: c.name | default: T.article }}</a></b>
+      <b><a href="{{ cat_base | append: page.category | append: '/' | relative_url }}">{{ c[name_key] | default: c.name | default: T.article }}</a></b>
     </div>
 
     <h1>{{ page.title }}</h1>
