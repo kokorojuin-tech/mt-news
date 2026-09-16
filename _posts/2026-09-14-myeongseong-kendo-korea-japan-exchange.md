@@ -4,7 +4,7 @@ description: "서초구 방배동 명성검도관(관장 배명환 8단)에서 �
 category: exchange
 author: 장혜연 기자, 백승화 기자
 tags: [검도, 한일교류, 명성검도관, 스포츠교류]
-image: /assets/img/명성검도관_한일검도교류_960913.jpg
+image: /assets/img/myeongseong-kendo-korea-japan_260913.jpg
 image_caption: "명성검도관에서 열린 한일 친선 검도 교류회 참석자들."
 lang: ko
 ---
