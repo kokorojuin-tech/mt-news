@@ -1,10 +1,10 @@
----
+<img width="1280" height="960" alt="명성검도관_한일검도교류_960913" src="https://github.com/user-attachments/assets/a6cf262f-39c2-454b-ae9b-ad85993dae89" />---
 title: "명성검도관, 한일 검도인 30여 명 모여 친선 교류회… 수련 마치고 맥주 나누며 우애 다져"
 description: "서초구 방배동 명성검도관(관장 배명환 8단)에서 한일 친선 검도 교류회 열려. 재한 일본 검도인 5명과 일본 방문단 1명, 한국 검도인 20여 명 참석."
 category: exchange
 author: 장혜연 기자, 백승화 기자
 tags: [검도, 한일교류, 명성검도관, 스포츠교류]
-image: /assets/img/2026-09/myeongseong-kendo-korea-japan.jpg
+image: /assets/img/명성검도관_한일검도교류_960913.jpg
 image_caption: "명성검도관에서 열린 한일 친선 검도 교류회 참석자들의 기념 촬영."
 lang: ko
 ---
