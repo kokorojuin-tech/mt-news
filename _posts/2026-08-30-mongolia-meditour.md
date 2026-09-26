@@ -1,7 +1,7 @@
 ---
 title: "한국 병리학 의료진, 몽골 울란바토르서 협력 논의"
 description: "몽골의료진과 한국의료진의 만남"
-category: medical
+category: global
 author: "백승화 기자"
 tags: [몽골, 의료, 관광]
 image: /assets/img/몽골 한국 의료진 사진.jpg
