@@ -1,7 +1,7 @@
 ---
 title: "Korean Pathology Medical Team Discusses Cooperation in Ulaanbaatar, Mongolia"
 description: "A meeting between Mongolian and Korean medical teams"
-category: medical
+category: global
 author: "Baek Seung-hwa, Reporter"
 tags: [Mongolia, medical, tourism]
 image: /assets/img/몽골 한국 의료진 사진.jpg
