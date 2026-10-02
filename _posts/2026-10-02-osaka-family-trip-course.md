@@ -5,7 +5,7 @@ category: tourism
 author: 백승화 기자
 tags: [오사카여행, 가족여행코스, 아이와함께, 일본여행, USJ, 가이유칸, 오사카성, 키즈플라자]
 image: /assets/img/2026-10/osaka-family-trip.jpg
-image_caption: "오사카 도톤보리 거리 전경"
+image_caption: "오사카 도톤보리"
 lang: ko
 ---
 
