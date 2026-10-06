@@ -4,8 +4,6 @@ description: "네 개의 기둥과 여덟 글자로 읽는 명리학 입문. 사
 category: column
 author: 서현배 칼럼리스트
 tags: [명리학, 사주팔자, 사주명리, 전통학문, 칼럼]
-image: /assets/img/2026-10/myeongrihak-1.jpg
-image_caption: "사주팔자를 이루는 네 개의 기둥과 여덟 글자"
 lang: ko
 ---
 
