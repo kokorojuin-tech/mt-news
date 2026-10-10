@@ -4,7 +4,7 @@ description: "2026년 노벨 생리의학상은 빛으로 신경세포를 정밀
 category: medical
 author: 장혜연 기자, 백승화 기자
 tags: [노벨상, 노벨생리의학상, 광유전학, 뇌과학, 채널로돕신, 칼다이서로스]
-image: /assets/img/2026-10/nobel-medicine-2026.jpg
+image: /assets/img/2026년 노벨 생리의학상 수상자.jpg
 image_caption: "2026년 노벨 생리의학상 수상자 (왼쪽부터 칼 다이서로스, 페터 헤게만, 게오르크 나겔)"
 lang: ko
 ---
