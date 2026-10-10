@@ -66,9 +66,3 @@ lang: ko
 광유전학은 현재 주로 동물 실험을 중심으로 한 연구 도구라는 점을 구분해야 한다. 사람의 뇌에 빛을 비춰 우울증이나 파킨슨병을 치료하는 단계는 아직 아니다. 그럼에도 뇌가 어떻게 기억하고, 느끼고, 움직이는지를 인과관계로 풀어낼 수 있게 됐다는 점에서, 이번 수상은 '뇌를 이해하는 방식' 자체를 바꾼 업적을 인정한 것으로 평가된다.
 
 ---
-
-**출처**
-- [Nature, Medicine Nobel awarded for brain 'switch' that controls neurons with light](https://www.nature.com/articles/d41586-026-03091-2)
-- [Stanford Medicine, Karl Deisseroth wins 2026 Nobel Prize](https://med.stanford.edu/news/all-news/2026/10/deisseroth-nobel-prize.html)
-- [ZDNet Korea, 노벨 생리의학상은 "뇌"…다이서로스·헤게만·나겔, 광유전학으로 받아](https://zdnet.co.kr/view/?no=20261005222923)
-- [R&D World, Optogenetics just won the Nobel Prize, its first therapy is already under FDA review](https://www.rdworldonline.com/optogenetics-just-won-the-nobel-prize-its-first-therapy-is-already-under-fda-review/)
