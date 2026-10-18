@@ -148,19 +148,3 @@ lang: ko
 법의인정의가 현장에서 먼저 느낀 한계는 한 개인이나 기관의 의지로 풀 수 없는 문제다. 자격을 정하고, 사람을 키우고, 정보가 흐르게 하고, 판단의 권한과 책임을 분명히 하는 일은 결국 국가의 몫이다. 폐기된 법안을 다시 꺼내 놓는 것에서 출발해도 늦지 않다. 죽음을 정확히 기록하는 일은 살아 있는 사람들을 위한 가장 기본적인 안전망이기 때문이다.
 
 ---
-
-**출처**
-- [시사저널, "부검할 의사가 없다"…국과수, 법의관 정원 중 33% 못 채워 (2025.9.18)](https://www.sisajournal.com/news/articleView.html?idxno=346963)
-- [메디게이트뉴스, 죽은자 권리 외면하는 사회…법의관이 사라져간다 (2023.3.26)](https://medigatenews.com/news/2321114194)
-- [메디게이트뉴스, 20년만에 부검 내려놓은 법의학자의 호소 "피만 뽑게 해달라" (2023.3.2)](https://m.medigatenews.com/news/2924008054)
-- [의협신문, 법의관 인력 부족 "자격 법정화·공적 시설 필요" (2023.3.24 토론회)](https://www.doctorsnews.co.kr/news/articleView.html?idxno=149106)
-- [국회입법예고, 검시를 위한 법의관 자격 및 직무에 관한 법률안](https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2123235/detailRP)
-- [일요시사, 법의학으로 본 죽음의 격차 ⑩ 해외는? 시카고 법의관 만나 보니… (2022.11.8)](https://www.ilyosisa.co.kr/news/article.html?no=237074)
-- [Park et al., Changes in Clinical and Legal Autopsy Rates in Korea from 2001 to 2015, J Korean Med Sci 2019](https://jkms.org/DOIx.php?id=10.3346%2Fjkms.2019.34.e301)
-- [세계일보, 한국, 원인불명 사망률 OECD 1위 (2014.9.14)](https://www.segye.com/newsView/20140914002377)
-- [데일리메디, 법의학자 23명, 1년 부검 5300여건 처리 (2014)](https://dailymedi.com/news/news_view.php?wr_id=785304)
-- [데일리메디, 법의학 전문의 인증제 추진 (2009.5.20)](https://dailymedi.com/news/news_view.php?wr_id=703691)
-- [대한의사협회지, Medicolegal Death Investigation System in America](https://synapse.koreamed.org/articles/1004678)
-- [Ishihara & Iwase, Reform of the death investigation system in Japan, Med Sci Law 2020](https://journals.sagepub.com/doi/10.1177/0025802420916590)
-- [정책브리핑, 2025년 사망원인통계](https://www.korea.kr/briefing/policyBriefingView.do?newsId=156782877)
-- [대한법의학회지, The Role of Forensic Medicine in Child Death Review Systems: Japan and Korea (2026)](https://www.kjlm.or.kr/journal/view.php?doi=10.7580%2Fkjlm.2026.50.3.83)
