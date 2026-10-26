@@ -4,8 +4,6 @@ description: "점에서 체계로 자라난 명리학의 계보. 사주명리가
 category: column
 author: 서현배 칼럼리스트
 tags: [명리학, 명리학첫걸음, 사주명리, 주역, 자평진전, 술수, 칼럼]
-image: /assets/img/2026-10/myeongrihak-2.jpg
-image_caption: "거북 등껍질 점에서 출발한 동양의 운명 읽기"
 lang: ko
 ---
 
