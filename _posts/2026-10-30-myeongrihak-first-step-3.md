@@ -4,8 +4,6 @@ description: "그늘과 볕에서 다섯 기운의 순환까지. 낮과 밤에�
 category: column
 author: 서현배 칼럼리스트
 tags: [명리학, 명리학첫걸음, 음양, 오행, 상생상극, 칼럼]
-image: /assets/img/2026-10/myeongrihak-3.jpg
-image_caption: "음과 양, 다섯 기운의 순환을 담은 태극도"
 lang: ko
 ---
 
