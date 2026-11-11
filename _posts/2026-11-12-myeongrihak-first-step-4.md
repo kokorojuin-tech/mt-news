@@ -4,8 +4,6 @@ description: "별과 손가락, 갑골에서 몸의 부위까지. 사주의 여�
 category: column
 author: 서현배 칼럼리스트
 tags: [명리학, 명리학첫걸음, 천간, 간지, 육십갑자, 갑골문, 칼럼]
-image: /assets/img/2026-11/myeongrihak-4-header.jpg
-image_caption: "북두칠성 자루 끝이 가리키는 방향과 계절 (개념도)"
 lang: ko
 ---
 
