@@ -4,8 +4,6 @@ description: "한 해의 달력이자 방위의 지도 — 자·축·인·묘로
 category: column
 author: 서현배 칼럼리스트
 tags: [명리학, 지지, 십이지, 설문해자, 사주, 칼럼]
-image: /assets/img/2026-11/myeongrihak-5-header.jpg
-image_caption: "『설문해자』가 풀이한 열두 지지의 뜻 (개념도)"
 lang: ko
 ---
 
